@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HPULevelsManager.jar">
+    <output-path>$PROJECT_DIR$/out/jar/</output-path>
+    <root id="archive" name="HPULevelsManager.jar">
+      <element id="module-output" name="HPULevelsManager" />
+      <element id="file-copy" path="$PROJECT_DIR$/icon.png" />
+      <element id="directory" name="org">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/org" />
+      </element>
+      <element id="directory" name="Assets">
+        <element id="dir-copy" path="$PROJECT_DIR$/Assets" />
+      </element>
+    </root>
+  </artifact>
+</component>
