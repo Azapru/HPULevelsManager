@@ -158,7 +158,7 @@ public class Menu extends JFrame {
         getLevelsButton.addActionListener(e -> {
             if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
                 try {
-                    Desktop.getDesktop().browse(new URI("https://redshadowxd.itch.io/hpultimate/community"));
+                    Desktop.getDesktop().browse(new URI("https://discord.gg/gxYGJJQqQN"));
                 } catch (IOException | URISyntaxException ex) {
                     JOptionPane.showMessageDialog(null, new RuntimeException(ex), "", JOptionPane.ERROR_MESSAGE);
                     throw new RuntimeException(ex);
